@@ -1,0 +1,1 @@
+CREATE TABLE IF not EXISTS `employee` (`id` int NOT NULL AUTO_INCREMENT PRIMARY KEY,`name` varchar(20));
