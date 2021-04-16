@@ -13,6 +13,7 @@ Database migration using flyway
     refer db\migration\xxxxxx.sql
 
 To commit github
+    git status
     git add .
     git commit -m "Your comment"
     git push origin master
