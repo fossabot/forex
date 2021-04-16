@@ -1,10 +1,13 @@
 pipeline {
     agent any
-
+    tools{
+        maven 'Maven'
+    }
     stages {
         stage('Build') {
             steps {
                 echo 'Building stage ..'
+                sh "mvn clean install"
             }
         }
         
