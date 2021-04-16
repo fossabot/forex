@@ -11,3 +11,5 @@ Refer in memory database in
 
 Database migration using flyway
     refer db\migration\xxxxxx.sql
+
+To commit github
