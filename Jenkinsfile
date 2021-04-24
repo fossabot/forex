@@ -5,9 +5,11 @@ pipeline {
         maven 'Maven'
     }
     stages {
-             stage('SonarQube analysis') {              
-              sh "mvn sonar:sonar -Dsonar.projectKey=FOREX -Dsonar.host.url=http://167.99.252.236:9000 -Dsonar.login=a9440b3640695f1a128d67ee8f58f8199b858733"
-          //sh 'mvn clean package sonar:sonar'
+             stage('SonarQube analysis') { 
+                 steps{
+                    sh "mvn sonar:sonar -Dsonar.projectKey=FOREX -Dsonar.host.url=http://167.99.252.236:9000 -Dsonar.login=a9440b3640695f1a128d67ee8f58f8199b858733"
+                 }
+                 //sh 'mvn clean package sonar:sonar'
           // submitted SonarQube taskId is automatically attached to the pipeline context
     }
   
