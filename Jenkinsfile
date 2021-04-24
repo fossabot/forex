@@ -1,7 +1,5 @@
 node {
-  stage('SCM') {
-    git 'https://github.com/foo/bar.git'
-  }
+  
   stage('SonarQube analysis') {
     withSonarQubeEnv('My SonarQube Server') {
       sh 'mvn clean package sonar:sonar'
