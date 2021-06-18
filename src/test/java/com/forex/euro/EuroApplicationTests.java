@@ -10,6 +10,6 @@ class EuroApplicationTests {
 	void contextLoads() {
 	}
 	
-	// Perform tests from below
+	// Perform tests from below as well
 
 }
