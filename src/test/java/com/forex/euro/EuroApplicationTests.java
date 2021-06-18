@@ -8,6 +8,7 @@ class EuroApplicationTests {
 
 	@Test
 	void contextLoads() {
+		assertEquals(7, 7);
 	}
 
 }
