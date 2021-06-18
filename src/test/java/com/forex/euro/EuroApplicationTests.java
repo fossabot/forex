@@ -9,5 +9,7 @@ class EuroApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
+	// Perform tests
 
 }
